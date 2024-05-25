@@ -1,0 +1,70 @@
+html, body{
+    overflow-x:hidden;
+}
+
+nav {
+    margin:10px;
+}
+
+.centering{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.photoshadow{
+    box-shadow:0px 0px 50px 5px ;
+}
+
+.photoshadow2{
+    box-shadow:0px 0px 50px 5px rgb(61, 57, 57);
+}
+
+
+.zoom:hover{
+    transform:scale(1.1);
+}
+
+.navigation{
+    background-color: rgba(240, 248, 255, 0.478);
+}
+
+.hobby{
+    font-size: larger;
+    font-family:serif;
+    background-color: rgba(243, 60, 239, 0.464);
+    text-shadow: 5px 5px 10px;
+    color:#eee;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+table,th,td{
+    border:2px solid black !important;
+}
+
+@media screen and (max-width:1280px){
+    .hobbycards{
+        width:100% !important;
+    }
+    .mobile-achievements{
+        width:100%;
+    }    
+    .mobile-hide{
+        display: none;
+    }
+    
+    .mobile-view{
+        transform:scale(0.9);
+    }
+    
+}
+
+@media screen and (min-width:1280px) {
+    .mobile-show{
+        display:none;
+    }
+    
+}
